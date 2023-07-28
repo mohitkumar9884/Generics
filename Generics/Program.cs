@@ -21,8 +21,8 @@
                     break;
                 case 2:
                     PrintArrayUsingGenericMethod.ToPrint(intArray) ;
-                    PrintArrayUsingGenericMethod.ToPrint(intArray);
-                    PrintArrayUsingGenericMethod.ToPrint(intArray);
+                    PrintArrayUsingGenericMethod.ToPrint(doubleArray);
+                    PrintArrayUsingGenericMethod.ToPrint(charArray);
                     break; 
                 case 3:
                     PrintArrayUsingGenericClass<int> intObject = new PrintArrayUsingGenericClass<int>(intArray);
